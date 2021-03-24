@@ -1,11 +1,11 @@
 package Material035
 
 fun main() {
-    val method01 = Method01()
+    val method02 = Method02()
     // method01.setFunctionPrivate() You can't call this
-    method01.getFunctionPrivate()
+    method02.getFunctionPrivate()
 }
-class Method01 {
+class Method02 {
     private fun setFunctionPrivate() {
         println("You call this function private")
     }
