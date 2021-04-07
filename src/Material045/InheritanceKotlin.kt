@@ -7,13 +7,9 @@ fun main() {
 }
 
 open class ParentClassKotlin {
-    fun setMethodParent() {
-        println("You call parent class")
-    }
+    fun setMethodParent() { println("You call parent class") }
 }
 
 class ChildClassKotlin : ParentClassKotlin() {
-    fun setMethodChild() {
-        println("You call child class")
-    }
+    fun setMethodChild() { println("You call child class") }
 }

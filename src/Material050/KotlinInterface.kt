@@ -1,15 +1,13 @@
 package Material050
 
-interface InterfaceJava {
+interface InterfaceKotlin {
     fun message()
 }
 fun main() {
-    val javaInterface = JavaInterface()
-    javaInterface.message()
+    val KotlinInterface = KotlinInterface()
+    KotlinInterface.message()
 }
 
-class JavaInterface : InterfaceJava {
-    override fun message() {
-        println("This is interface method")
-    }
+class KotlinInterface : InterfaceKotlin {
+    override fun message() { println("This is interface method") }
 }

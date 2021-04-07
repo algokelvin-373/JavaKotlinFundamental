@@ -6,11 +6,6 @@ fun main() {
     overloadKotlin.method01("Kotlin", "Kotlin")
 }
 class OverloadKotlin {
-    fun method01(msg1: String?) {
-        println(msg1)
-    }
-
-    fun method01(msg1: String, msg2: String) {
-        println("$msg1 $msg2")
-    }
+    fun method01(msg1: String?) { println(msg1) }
+    fun method01(msg1: String, msg2: String) { println("$msg1 $msg2") }
 }
