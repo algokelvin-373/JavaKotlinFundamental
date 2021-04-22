@@ -9,9 +9,9 @@ import java.util.Arrays;
 
 public class ImageToByteJava {
     public static void main(String[] args) throws IOException {
-        BufferedImage bImage = ImageIO.read(new File("src/assets/sample01.jpg"));
+        BufferedImage bImage = ImageIO.read(new File("src/assets/sample02.png"));
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        ImageIO.write(bImage, "jpg", bos);
+        ImageIO.write(bImage, "png", bos);
         byte [] data = bos.toByteArray();
 
         System.out.println("Resolution       : "+bImage.getWidth()+" x "+bImage.getHeight());
